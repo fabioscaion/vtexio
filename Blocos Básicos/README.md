@@ -26,22 +26,22 @@ Uma vez que é o Toolbelt que estabelece a comunicação entre o desenvolvedor e
 ## Instale o Node.js. 
 
 Se você estiver usando um MAC, instale também Yarn;
-Execute `npm i -g vtex` em seu terminal se estiver usando Windows ou *yarn global add vtex* se estiver usando MAC;
-Você pode executar *vtex-v* (Windows) ou *vtex* (MAC) para confirmar se a instalação do Toolbelt foi conforme o esperado.
+Execute `npm i -g vtex` em seu terminal se estiver usando Windows ou `yarn global add vtex` se estiver usando MAC;
+Você pode executar `vtex-v` (Windows) ou *vtex* (MAC) para confirmar se a instalação do Toolbelt foi conforme o esperado.
 
 Depois de instalado com sucesso, a próxima etapa é fazer login em uma conta VTEX.
 
 ## Fazendo login
-Execute vtex login appliancetheme em seu terminal, durante esse treinamento, usaremos essa conta para o desenvolvimento.
+Execute `vtex login appliancetheme` em seu terminal, durante esse treinamento, usaremos essa conta para o desenvolvimento.
 
-Depois de fazer login, execute *vtex whoami* para confirmar a conta e a área de trabalho em que você se encontra.
+Depois de fazer login, execute `vtex whoami` para confirmar a conta e a área de trabalho em que você se encontra.
 
 Os workspaces nada mais são do que o que o homônimo sugere. No VTEX IO, as contas têm três tipos principais de workspace, a saber master, produção e desenvolvimento.
 
 O próximo passo é criar um workspace de desenvolvimento, que permitirá que você brinque com as configurações ao longo do curso sem alterar a versão pública final da loja.
 
 ## Criação de um workspace de desenvolvimento
-Execute *vtex use workspace-name*, substituindo workspace-name pelo nome desejado. Use um nome único para seu workspace.
+Execute `vtex use workspace-name`, substituindo workspace-name pelo nome desejado. Use um nome único para seu workspace.
 
 ## Acessando seu workspace
 Depois de criar o workspace, você poderá acessá-lo neste link: https://{workspace}-{conta}.myvtex.com, substituindo{workspace}e{conta}com o nome do workspace e conta criados anteriormente. Por exemplo, https://devworkspace-appliancetheme.myvtex.com
